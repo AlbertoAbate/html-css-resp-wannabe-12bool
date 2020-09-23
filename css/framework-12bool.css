@@ -31,7 +31,7 @@
   padding-left: 0;
   padding-right: 0;
 }
-
+@media screen and (max-width: 767px) {
 /* colonne per parte mobile fino a 767px */
 /* colonne da 12 a 1 */
 .col-xs-12 {
@@ -108,10 +108,11 @@
 .offset-xs-12 {
   margin-left: calc((100% / 12) * 12);
 }
-
+}
 
 /* colonne per parte tablet da 768px fino a 991px */
 /* colonne da 12 a 1 */
+@media screen and (min-width: 768px) {
 .col-md-12 {
   width: 100%;
 }
@@ -186,10 +187,11 @@
 .offset-md-12 {
   margin-left: calc((100% / 12) * 12);
 }
-
+}
 
 /* colonne per parte large devices da 992px in su */
 /* colonne da 12 a 1 */
+@media screen and (min-width: 992px) {
 .col-lg-12 {
   width: 100%;
 }
@@ -263,4 +265,5 @@
 }
 .offset-lg-12 {
   margin-left: calc((100% / 12) * 12);
+}
 }
