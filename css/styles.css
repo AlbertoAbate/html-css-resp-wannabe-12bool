@@ -20,6 +20,10 @@ section img {
   display: block;
   margin: 15px auto;
 }
+.lezioni,
+.online {
+  background-color: #fff;
+}
 .seconda {
   background-color: #80808038;
 }

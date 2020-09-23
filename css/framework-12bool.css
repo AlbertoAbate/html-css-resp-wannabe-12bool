@@ -113,6 +113,7 @@
 /* colonne per parte tablet da 768px fino a 991px */
 /* colonne da 12 a 1 */
 @media screen and (min-width: 768px) {
+  
 .col-md-12 {
   width: 100%;
 }
