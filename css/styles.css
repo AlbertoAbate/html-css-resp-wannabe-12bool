@@ -1,25 +1,31 @@
 /* general styles */
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
-
+/* utilities */
 h1,
 h3,
 p {
   text-align: center;
 }
 p {
+  margin-top: 30px;
   margin-bottom: 50px;
 }
 section {
   margin-bottom: 60px;
 }
-section img {
+[class*="col-xs-"] img {
   width: 140px;
-  height: 140px;
+  height: auto;
   display: block;
   margin: 15px auto;
 }
+[class*="col-md-"] img {
+  width: auto;
+  height: 220px;
+}
+
 .lezioni,
 .online {
   background-color: #fff;
