@@ -1,0 +1,38 @@
+/* general styles */
+body {
+  font-family: sans-serif;
+}
+
+h1,
+h3,
+p {
+  text-align: center;
+}
+p {
+  margin-bottom: 50px;
+}
+section {
+  margin-bottom: 60px;
+}
+section img {
+  width: 140px;
+  height: 140px;
+  display: block;
+  margin: 15px auto;
+}
+.seconda {
+  background-color: #80808038;
+}
+.terza {
+  background-color: #80808038;
+}
+.terza img {
+  background-color: blue;
+  border-radius: 50%;
+}
+.terza p {
+  margin-bottom: 5px;
+}
+hr {
+  margin-bottom: 50px;
+}
